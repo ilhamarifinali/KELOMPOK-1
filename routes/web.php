@@ -24,6 +24,3 @@ Route::get('/test', function () {
 Route::get('siswa', function () {
     return view('siswa');
 });
-
-Route::get('login', [UserController::class, 'index']);
-Route::post('login', [UserController::class, 'autentication']);
