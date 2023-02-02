@@ -47,7 +47,7 @@
 								</div>
 	            </div>
 	          </form>
-	          
+
 	          <div class="social d-flex text-center">
 	          </div>
 		      </div>
