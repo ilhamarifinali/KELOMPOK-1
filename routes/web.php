@@ -24,3 +24,4 @@ Route::get('/test', function () {
 Route::get('siswa', function () {
     return view('siswa');
 });
+

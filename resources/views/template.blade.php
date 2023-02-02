@@ -21,7 +21,7 @@ Coded by www.creative-tim.com
   <link rel="icon" type="image/png" href="assets/img/favicon.png">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <title>
-    Paper Dashboard 2 by Creative Tim
+    E-Book
   </title>
   <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
   <!--     Fonts and icons     -->
@@ -40,12 +40,12 @@ Coded by www.creative-tim.com
       <div class="logo">
         <a href="https://www.creative-tim.com" class="simple-text logo-mini">
           <div class="logo-image-small">
-            <img src="assets/img/logo-small.png">
+            <img src="assets/img/logo1.png">
           </div>
           <!-- <p>CT</p> -->
         </a>
-        <a href="https://www.creative-tim.com" class="simple-text logo-normal">
-          Creative Tim
+        <a href="https://www.E-Book.com" class="simple-text logo-normal">
+          E-Book
           <!-- <div class="logo-image-big">
             <img src="assets/img/logo-big.png">
           </div> -->
@@ -75,7 +75,7 @@ Coded by www.creative-tim.com
           <li>
             <a href="./notifications.html">
               <i class="nc-icon nc-bell-55"></i>
-              <p>Notifications</p>
+              <p>Notificasi</p>
             </a>
           </li>
           <li>
@@ -87,7 +87,7 @@ Coded by www.creative-tim.com
           <li>
             <a href="./tables.html">
               <i class="nc-icon nc-tile-56"></i>
-              <p>Table List</p>
+              <p>Data Barang</p>
             </a>
           </li>
 
@@ -106,7 +106,7 @@ Coded by www.creative-tim.com
                 <span class="navbar-toggler-bar bar3"></span>
               </button>
             </div>
-            <a class="navbar-brand" href="javascript:;">Paper Dashboard 2</a>
+            <a class="navbar-brand" href="javascript:;">E-Book</a>
           </div>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-bar navbar-kebab"></span>
