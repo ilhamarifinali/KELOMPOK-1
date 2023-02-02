@@ -29,7 +29,8 @@
 		      			<input type="text" class="form-control" placeholder="Username" required>
 		      		</div>
 	            <div class="form-group">
-	              <input id="password-field" type="password" class="form-control" placeholder="Password" required>
+	              <input id="password-field" type="password" class="form-control" placeholder="Password"
+                  required>
 	              <span toggle="#password-field" class="fa fa-fw fa-eye field-icon toggle-password"></span>
 	            </div>
 	            <div class="form-group">
@@ -47,7 +48,7 @@
 								</div>
 	            </div>
 	          </form>
-	          
+
 	          <div class="social d-flex text-center">
 	          </div>
 		      </div>
