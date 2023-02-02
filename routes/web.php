@@ -15,11 +15,14 @@ use App\Http\Controllers\UserController;
 
 Route::get('/', function () {
     return view('dasboard');
-});
+})->name('dashboard');
 
 Route::get('/test', function () {
     return view('test');
 });
+Route::get('/icon', function () {
+    return view('icons');
+})->name('icons');
 
 Route::get('siswa', function () {
     return view('siswa');
