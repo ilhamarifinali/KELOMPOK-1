@@ -25,6 +25,8 @@ Route::get('siswa', function () {
     return view('siswa');
 });
 
+
 Route::get('login', [UserController::class, 'index'])->name('login');
 
 Route::post('login', [UserController::class, 'authentication'])->name('authen');
+
