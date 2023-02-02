@@ -24,3 +24,6 @@ Route::get('test', function () {
 Route::get('siswa', function () {
     return view('siswa');
 });
+Route::get('/menu', function () {
+    return view('menu');
+});
