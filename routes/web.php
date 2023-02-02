@@ -24,9 +24,12 @@ Route::get('/test', function () {
 Route::get('siswa', function () {
     return view('siswa');
 });
+<<<<<<< Updated upstream
 
 
 Route::get('login', [UserController::class, 'index'])->name('login');
 
 Route::post('login', [UserController::class, 'authentication'])->name('authen');
 
+=======
+>>>>>>> Stashed changes
