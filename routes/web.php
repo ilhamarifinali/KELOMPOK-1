@@ -25,3 +25,7 @@ Route::get('siswa', function () {
     return view('siswa');
 });
 
+Route::get('login', function () {
+    return view('login');
+});
+
