@@ -17,9 +17,9 @@ Route::get('/', function () {
     return view('dasboard');
 })->name('dashboard');
 
-Route::get('/test', function () {
-    return view('test');
-});
+Route::get('/notif', function () {
+    return view('notifikasi');
+})->name('notifikasi');
 Route::get('/icon', function () {
     return view('icons');
 })->name('icons');
