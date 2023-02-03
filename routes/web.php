@@ -31,6 +31,3 @@ Route::get('siswa', function () {
 Route::get('login', [UserController::class, 'index'])->name('login');
 
 Route::post('login', [UserController::class, 'authentication'])->name('authen');
-
-=======
->>>>>>> Stashed changes
