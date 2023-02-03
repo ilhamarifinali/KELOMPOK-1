@@ -161,8 +161,9 @@ Coded by www.creative-tim.com
       <!-- End Navbar -->
 
    <!--CONTENT-->
+
    @yield('content')
-        <--!END CONTENT-->
+
         <footer class="footer footer-black  footer-white ">
         <div class="container-fluid">
           <div class="row">
