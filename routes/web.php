@@ -20,7 +20,7 @@ Route::get('/', function () {
 Route::get('/notif', function () {
     return view('notifikasi');
 })->name('notifikasi');
-Route::get('/icon', function () {
+Route::get('/icons', function () {
     return view('icons');
 })->name('icons');
 
