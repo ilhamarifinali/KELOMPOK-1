@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\UserController;
+use App\Http\Controllers\LoginController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -20,14 +21,16 @@ Route::get('/', function () {
 Route::get('/notif', function () {
     return view('notifikasi');
 })->name('notifikasi');
-Route::get('/icons', function () {
-    return view('icons');
-})->name('icons');
+Route::get('/profile', function () {
+    return view('userprofile');
+})->name('userprofile');
 
 Route::get('siswa', function () {
     return view('siswa');
 });
 
-Route::get('login', [UserController::class, 'index'])->name('login');
-
-Route::post('login', [UserController::class, 'authentication'])->name('authen');
+Route::get('/login', [LoginController::class, 'login'])->name('login');
+Route::post('/loginproses', [LoginController::class, 'loginproses'])->name('loginproses');
+Route::get('/register', [loginController::class, 'register'])->name('register');
+Route::post('/registeruser', [loginController::class, 'registeruser'])->name('registeruser');
+Route::get('/logout', [LoginController::class, 'logout'])->name('logout');

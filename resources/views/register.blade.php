@@ -13,28 +13,7 @@
     <title>Login</title>
   </head>
   <body class="img js-fullheight" style="background-image: url(images/walpaper.jpg);">
-      <a class="login-trigger" href="#" data-target="#login" data-toggle="modal">Masuk</a>
       <a class="login-trigger" href="#" data-target="#register" data-toggle="modal">Daftar</a>
-
-<div id="login" class="modal fade" role="dialog">
-  <div class="modal-dialog">
-
-    <div class="modal-content">
-      <div class="modal-body">
-        <button data-dismiss="modal" class="close">&times;</button>
-        <h4>Masuk</h4>
-        <form action="/loginproses" method="POST">
-            @csrf
-          <input type="email" name="email" class="username form-control" placeholder="Masukkan Email Anda"/>
-
-          <input type="password" name="password" class="password form-control" placeholder="Masukkan Sandi Anda"/>
-
-          <input class="btn login" type="submit" value="Masuk" />
-        </form>
-      </div>
-    </div>
-  </div>
-</div>
 <div id="register" class="modal fade" role="dialog">
   <div class="modal-dialog">
 
